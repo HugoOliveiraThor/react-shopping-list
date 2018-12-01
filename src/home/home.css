@@ -9,13 +9,6 @@
 
 }
 
-.card {
-  width:100%;
-  display: flex;
-  flex-direction: column;
-
-}
-
 .list-container {
   width:220px;
   margin:20px;
@@ -38,18 +31,7 @@
   margin-right: 10px;
 }
 
-.card-action-area {
-  flex:1;
-
-}
-
-.card-content {
-  display: flex;
-  justify-content: center;
-}
-
-.card-footer {
-  height: 40px;
+.list-footer {
   width: 100%;
   display: flex;
   justify-content: space-between;
