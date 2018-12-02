@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { createMuiTheme } from '@material-ui/core/styles'
 import MuiThemeProvider from '@material-ui/core/styles/MuiThemeProvider'
-import Header from './common/header'
+import Header from './common/Header'
 import Home from './home/index'
 import CreateList from './createList/index'
 

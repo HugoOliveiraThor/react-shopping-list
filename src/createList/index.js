@@ -1,8 +1,11 @@
 import React from 'react'
-
+import './list.css'
+import Form from './Form'
 
 const CreateList = () => (
-  <h1>Ola</h1>
+  <div className='page-container'>
+    <Form />
+  </div>
 )
 
 export default CreateList

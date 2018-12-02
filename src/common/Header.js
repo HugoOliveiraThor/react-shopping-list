@@ -6,7 +6,7 @@ const Header = () => (
     <AppBar position='static' color='primary'>
       <div className='header'>
       <Link to='/'>
-        <p className='title'>Lista de compras</p>
+        <p className='title text-left' >Lista de compras</p>
       </Link>
       </div>
     </AppBar>

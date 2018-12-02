@@ -4,7 +4,16 @@
   text-align: center;
 }
 
+.text-left {
+  text-align: left
+}
+
 .header {
   padding: 0 20px;
   
+}
+
+a, a:hover {
+  text-decoration: none;
+  color:inherit;
 }
