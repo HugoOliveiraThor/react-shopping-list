@@ -9,6 +9,7 @@ import ListItem from './ListIem'
 const List = () => (
   <CustomCard
     containerClass='list-container'
+    link='/lista'
     footer={<ListFooter />}
   >
     <div>
