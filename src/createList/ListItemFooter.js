@@ -2,7 +2,7 @@ import React from 'react'
 import { faPen, faTrash } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-const ListItemFooter = () => (
+const ListItemFooter = props => (
   <div className='list-card-footer'>
       <div className='list-card-footer-actions'>
         <FontAwesomeIcon 
@@ -17,7 +17,7 @@ const ListItemFooter = () => (
           size='1x'
         />
       </div>
-      <p>Total: R$ 130.00</p>
+      <p>Total R${props.total}</p>
   </div>
 )
 
