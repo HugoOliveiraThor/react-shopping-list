@@ -1,0 +1,4 @@
+export const data = {
+  key: 'key generate from google api search',
+  cx: ' key for search generate by api google search'
+}
