@@ -16,8 +16,9 @@
   width:100%;
   display: flex;
   flex-direction: column;
-
+  height:100%;
 }
+
 
 .card-img {
   object-fit: cover;

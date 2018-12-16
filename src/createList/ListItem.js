@@ -4,9 +4,9 @@ import '../common/CustomCard.css';
 import ListItemFooter from './ListItemFooter';
 import { Typography, Checkbox } from '@material-ui/core';
 
-const ListItem = ({item, deleteProduct, toggleProduct}) => (
+const ListItem = ({item, deleteProduct, toggleProduct, list}) => (
     <CustomCard
-      footer={<ListItemFooter item={item} deleteProduct={ deleteProduct } />}
+      footer={<ListItemFooter list={list} item={item} deleteProduct={ deleteProduct } />}
       containerClass='list-item'
       image='http://clacri.com.br/wp-content/uploads/2015/07/capa4.jpg'
       link='#'>
