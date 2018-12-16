@@ -1,11 +1,11 @@
 import axios from 'axios'
-import data from '../../../.env'
+import {key, cx} from '../../key'
 
 export const services = {
   getImages: product => {
     const params = {
-      key:data.key,
-      cx:data.cx,
+      key,
+      cx,
       searchType:'image',
       lr:'lang_pt',
       num:1,

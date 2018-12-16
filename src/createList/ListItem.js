@@ -8,7 +8,7 @@ const ListItem = ({item, deleteProduct, toggleProduct, list}) => (
     <CustomCard
       footer={<ListItemFooter list={list} item={item} deleteProduct={ deleteProduct } />}
       containerClass='list-item'
-      image='http://clacri.com.br/wp-content/uploads/2015/07/capa4.jpg'
+      image={item.img}
       link='#'>
       <div>
         <div className='list-item-header'>

@@ -1,16 +1,20 @@
-import { createStore } from 'redux'
+import { createStore, applyMiddleware, compose } from 'redux'
+import createSagaMiddleware from 'redux-saga'
+import sagas from './sagas'
+
 import reducers from './reducers'
 import { loadState, saveState } from './localStorage'
 
 const localStorageState = loadState()
+const sagaMiddlewares = createSagaMiddleware();
+const middleWares = [sagaMiddlewares]
 
+const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose
+const store = createStore(reducers, localStorageState, composeEnhancers(
+  applyMiddleware(...middleWares)
+))
 
-
-const store = createStore(
-  reducers,
-  localStorageState, 
-  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
-  )
+sagaMiddlewares.run(sagas)
 
 store.subscribe(() => {
   saveState({ list: store.getState().list })
