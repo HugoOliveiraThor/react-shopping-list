@@ -9,7 +9,7 @@ import { bindActionCreators } from 'redux';
 
 
 const Home = props => (
-  <div className='page-container'>
+  <div className='page-container home-img'>
     <NewList newList={props.newList} />
     {props.list.items.length > 0 &&
       <List 

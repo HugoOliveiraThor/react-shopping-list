@@ -11,6 +11,7 @@ const List = props => (
     containerClass='list-container'
     link='/lista/edicao'
     footer={<ListFooter total={props.total} />}
+    cardClass={props.openedItems < 1 ? 'closed-list' : 'opened-list'}
   >
     <div>
       <p className='title'>{props.list}</p>

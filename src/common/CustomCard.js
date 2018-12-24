@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom'
 const CustomCard = (props) => (
   <div className={props.containerClass}>
     <Link to={props.link}>
-      <Card className='card'>
+      <Card className={`card ${props.cardClass ? props.cardClass: ''}`}>
         <CardActionArea onClick={props.action} className='card-action-area'>
           {props.image &&
             <CardMedia

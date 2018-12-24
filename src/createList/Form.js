@@ -6,7 +6,6 @@ import {Creators as FormActions} from '../store/actions/form'
 const units = ['quilos','litro','unidade']
 
 const initialState = {
-  list: '',
   product: '',
   quantity: '',
   unit: '',
