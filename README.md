@@ -29,3 +29,7 @@ Your app is ready to be deployed!
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ## Reselect
+
+## Images from project
+
+![Principal screen](https://github.com/HugoOliveiraThor/react-shopping-list/blob/master/public/assets/tela_produtos.png)
