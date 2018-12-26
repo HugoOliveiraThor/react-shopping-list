@@ -1,11 +1,10 @@
 import axios from 'axios'
-import {key, cx} from '../../key'
 
 export const services = {
   getImages: product => {
     const params = {
-      key,
-      cx,
+      key: process.env.REACT_APP_KEY,
+      cx:process.env.REACT_APP_CX,
       searchType:'image',
       lr:'lang_pt',
       num:1,

@@ -1,4 +1,2 @@
-export const data = {
-  key: 'key generate from google api search',
-  cx: ' key for search generate by api google search'
-}
+REACT_APP_KEY = 'write your key'
+REACT_APP_CX = 'write your key'
