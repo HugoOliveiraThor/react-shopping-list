@@ -35,3 +35,6 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 #### Principal screen
 ![Principal screen](https://github.com/HugoOliveiraThor/react-shopping-list/blob/master/public/assets/tela_produtos.png)
+
+#### Add itens to list to shop
+![Add itens to list](https://github.com/HugoOliveiraThor/react-shopping-list/blob/master/public/assets/principal.jpeg.png)
